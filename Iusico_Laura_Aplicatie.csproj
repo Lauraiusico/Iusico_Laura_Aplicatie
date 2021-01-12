@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="20792193.jpg" />
+    <None Remove="b94362579b8e3e6630135cefc9e822ce.jpg" />
+    <None Remove="pdflowerset16-gloy-03-leaves_1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="20792193.jpg" />
+  </ItemGroup>
+
+</Project>
